@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
                 .setAction("Action", null).show()
         }
         println("This is my second commit")
+        today is good day
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

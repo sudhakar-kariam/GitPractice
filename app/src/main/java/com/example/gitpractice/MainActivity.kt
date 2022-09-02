@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
                 .setAction("Action", null).show()
         }
         println("This is my second commit")
-        println("version2.0")
+        println("version2.0 master")
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

@@ -25,6 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".demo.ui.DemoActivitry"/>
+        <activity android:name=".demo.ui.EventActivity"/>
     </application>
 
 </manifest>

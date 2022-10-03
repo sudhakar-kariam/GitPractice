@@ -1,5 +1,6 @@
 package com.example.gitpractice
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
@@ -10,6 +11,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
 import com.example.gitpractice.databinding.ActivityMainBinding
+import com.example.gitpractice.demo.ui.EventActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,8 +31,7 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         binding.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+           startActivity(Intent(this, EventActivity::class.java))
         }
         println("This is my second commit")
         println("version2.0 master2")

@@ -12,6 +12,7 @@ import android.view.Menu
 import android.view.MenuItem
 import com.example.gitpractice.databinding.ActivityMainBinding
 import com.example.gitpractice.demo.ui.EventActivity
+import com.example.gitpractice.demo.ui.listview.ListViewActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         binding.fab.setOnClickListener { view ->
-           startActivity(Intent(this, EventActivity::class.java))
+           startActivity(Intent(this, ListViewActivity::class.java))
         }
         println("This is my second commit")
         println("version2.0 master2")

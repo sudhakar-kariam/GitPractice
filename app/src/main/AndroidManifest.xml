@@ -26,6 +26,7 @@
         </activity>
         <activity android:name=".demo.ui.DemoActivitry"/>
         <activity android:name=".demo.ui.EventActivity"/>
+        <activity android:name=".demo.ui.listview.ListViewActivity"/>
     </application>
 
 </manifest>

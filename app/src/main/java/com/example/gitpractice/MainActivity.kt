@@ -12,12 +12,12 @@ import android.view.Menu
 import android.view.MenuItem
 import com.example.gitpractice.databinding.ActivityMainBinding
 import com.example.gitpractice.demo.ui.EventActivity
+import com.example.gitpractice.release.Release
 
 class MainActivity : AppCompatActivity() {
-
+    private lateinit var releae:Release
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
